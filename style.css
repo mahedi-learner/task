@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1125px;
+  background: #fff;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.menu a {
+  margin: 0 20px;
+}
+.nav {
+  background: #eeebec;
+}
+.middle {
+  background: #eae7e8;
+}
+div.before {
+  display: flex;
+  background: #c8c10d;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.before a {
+  margin: 0 90px;
+  display: block;
+  padding: 40px;
+}
